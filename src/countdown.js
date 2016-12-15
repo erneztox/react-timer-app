@@ -56,6 +56,7 @@ class Count extends Component {
     let countStatus = this.state.countStatus;
     return(
       <div>
+        <h3>Countdown App</h3>
         <div className="clock clock-text">
           <Clock totalSeconds={count} />
         </div>

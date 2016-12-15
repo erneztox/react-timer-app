@@ -50,7 +50,7 @@ class Timer extends Component {
     let {count, timerStatus} = this.state;
     return (
       <div>
-        <h3>Timer</h3>
+        <h3>Timer App</h3>
         <div className="clock clock-text">
           <Clock totalSeconds={count}/>
         </div>
