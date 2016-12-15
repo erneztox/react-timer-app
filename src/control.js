@@ -7,7 +7,7 @@ class Control extends Component {
   renderStartStopButtons = (countStatus) => {
     if (countStatus === 'started'){
       return <button onClick={() => this.onStatusChange('paused')}>Pause</button>
-    } else if (countStatus === 'paused'){
+    } else {
       return <button onClick={() => this.onStatusChange('started')}>Start</button>
     }
   }

@@ -17,11 +17,11 @@ class Clock extends Component {
   render() {
     let {totalSeconds} = this.props;
     return (
-      <di>
+      <div>
         <span>
           {this.formatSeconds(totalSeconds)}
         </span>
-      </di>
+      </div>
     );
   }
 }
